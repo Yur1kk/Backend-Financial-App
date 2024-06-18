@@ -1,0 +1,193 @@
+
+body {
+  font-family: "Poppins", sans-serif; 
+  margin: 0;
+  padding: 0;
+  background-image: url('https://cdn.pixabay.com/photo/2020/05/18/17/29/dollar-5187612_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #02002c; 
+}
+
+/* Стиль заголовка h1, h2 та .page-heading */
+h1, h2, .page-heading {
+  background-color: #9873fe; 
+  color: #ffffff; 
+  padding: 20px;
+  text-align: center;
+  font-size: 1.6em; 
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Загальний стиль для посилань a */
+a {
+  color: #0a60e9; 
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Зміна кольору посилань при наведенні курсора */
+a:hover {
+  color: #02002c; 
+  text-decoration: underline;
+}
+
+/* Стиль для списку ul */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Стиль для окремого елементу списку li */
+li {
+  background-color: #ffffff;
+  border: 1px solid #02002c; 
+  margin-bottom: 10px;
+  padding: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Анімація при наведенні на елемент списку */
+li:hover {
+  transform: scale(1.05);
+}
+
+/* Стиль для форми */
+form {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #02002c; 
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Стиль для текстових полів вводу */
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #02002c; 
+  border-radius: 4px;
+  font-size: 1.2em; 
+  color: #02002c; 
+}
+
+/* Стиль для кнопки submit */
+button[type="submit"] {
+  background-color: #9873fe; 
+  color: #ffffff;
+  padding: 1em 0;
+  margin-top: 2em;
+  border-radius: 0.3em;
+  font-size: 1em;
+  font-weight: 600;
+  border: none; 
+}
+
+/* Зміна кольору кнопки при наведенні курсора */
+button[type="submit"]:hover {
+  background-color: #9873fe;
+  transform: scale(1.05);
+}
+
+/* Стиль для меню навігації */
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  padding-left: 20px;
+}
+
+/* Зміна кольору посилань при наведенні курсора */
+nav a:hover {
+  color: #9873fe; 
+}
+
+/* Стиль для фрази "Список місяців" */
+.page-heading {
+  background-color: #9873fe; 
+  color: #ffffff; 
+  padding: 20px;
+  text-align: center;
+  font-size: 1.6em; 
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Стиль для назв місяців та тексту "Видалити планування" */
+.month-container {
+  text-align: left;
+  padding-left: 100px;
+}
+
+.delete-link {
+  display: block;
+  text-align: left;
+  margin-left: 1px;
+  background-color: #ffffff; 
+  color: #9873fe; 
+}
+
+body, p, label, button {
+  color: #9873fe; 
+}
+
+
+table th,
+table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  background-color: white; 
+  color: #000000; 
+}
+/* Стиль для заголовків стовпців таблиці */
+table th {
+  background-color: #f2f2f2;
+  color: #02002c; 
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 1rem;
+  margin-top: auto;
+}
+
+/* Загальні стилі для елементів, які повинні мати відступи та вирівнювання */
+nav, body, ul, h {
+  padding: 20px; 
+  margin: 20px; 
+  text-align: center; 
+}
+
+.auth-buttons {
+  margin-left: auto; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.auth-buttons a:first-child {
+  margin-right: 10px;
+}
+
+
+
