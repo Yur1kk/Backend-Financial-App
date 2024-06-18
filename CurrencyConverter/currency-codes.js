@@ -1,0 +1,1 @@
+currencies = ["CAD", "EUR", "GBP", "PLN", "UAH", "USD"];
